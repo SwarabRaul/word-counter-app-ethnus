@@ -1,5 +1,3 @@
-// 21BAI1225 - Swarab Raul
-
 import React, { useState } from 'react';
 import './App.css';
 
@@ -11,8 +9,8 @@ function App() {
     setText(event.target.value);
   };
 
-  const goToGoogle = () => {
-    window.location.href = 'https://www.google.com';
+  const goToIndexPage = () => {
+    window.location.href = 'https://swarabraul.github.io/React-Ethnus-IndexPage/';
   };
 
   return (
@@ -25,7 +23,7 @@ function App() {
         onChange={handleTextChange}
       />
       <p>Word Count: {wordCount}</p>
-      <button onClick={goToGoogle}>Back to Google</button>
+      <button onClick={goToIndexPage}>Back to Index Page</button>
     </div>
   );
 }
